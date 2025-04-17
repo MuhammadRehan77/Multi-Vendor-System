@@ -24,7 +24,7 @@ Each part has its own folder and purpose, explained in the sections below.
 
 A clone of the Amazon homepage using **pure HTML and CSS**.
 
-[![Watch A1 Demo](https://youtu.be/sv9SJeDKlPs)
+[![Watch A1 Demo](https://img.youtube.com/vi/sv9SJeDKlPs/0.jpg)](https://youtu.be/sv9SJeDKlPs)
 
 ---
 
@@ -32,7 +32,7 @@ A clone of the Amazon homepage using **pure HTML and CSS**.
 
 UI restructured using **Tailwind CSS** for responsive and utility-first design.
 
-[![Watch A2 Demo](https://youtu.be/40bwyGNzZS0)
+[![Watch A2 Demo](https://img.youtube.com/vi/40bwyGNzZS0/0.jpg)](https://youtu.be/40bwyGNzZS0)
 
 ---
 
@@ -40,7 +40,7 @@ UI restructured using **Tailwind CSS** for responsive and utility-first design.
 
 Dynamic features added with **JavaScript** like interactivity, cart actions, etc.
 
-[![Watch A3 Demo](https://youtu.be/Lhci8lHl1eQ)
+[![Watch A3 Demo](https://img.youtube.com/vi/Lhci8lHl1eQ/0.jpg)](https://youtu.be/Lhci8lHl1eQ)
 
 ---
 
@@ -48,4 +48,4 @@ Dynamic features added with **JavaScript** like interactivity, cart actions, etc
 
 1. Clone the repository:
    ```bash
-   git clone https://github.com/yourusername/multi-vendor-system-e-commerce.git
+   git clone https://github.com/MuhammadRehan77/Multi-Vendor-System.git

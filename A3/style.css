@@ -1,0 +1,48 @@
+/* Dark mode styles */
+:root {
+  --bg-primary: #f9fafb;
+  --text-primary: #111827;
+  --bg-secondary: #ffffff;
+  --border-color: #e5e7eb;
+}
+
+.dark {
+  --bg-primary: #1f2937;
+  --text-primary: #f9fafb;
+  --bg-secondary: #111827;
+  --border-color: #374151;
+}
+
+body {
+  background-color: var(--bg-primary);
+  color: var(--text-primary);
+  transition: background-color 0.3s, color 0.3s;
+}
+
+.bg-white {
+  background-color: var(--bg-secondary);
+}
+
+.border {
+  border-color: var(--border-color);
+}
+
+.text-gray-600 {
+  color: var(--text-primary);
+  opacity: 0.7;
+}
+
+.text-gray-700 {
+  color: var(--text-primary);
+  opacity: 0.8;
+}
+
+/* Animation for sale banner */
+@keyframes pulse {
+  0%, 100% { opacity: 1; }
+  50% { opacity: 0.8; }
+}
+
+.animate-pulse {
+  animation: pulse 2s cubic-bezier(0.4, 0, 0.6, 1) infinite;
+}

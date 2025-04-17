@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Multi Vendor Marketplace - Your One-Stop Shopping Destination</title>
+    <link rel="stylesheet" href="style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
+    <script src="https://cdn.jsdelivr.net/npm/@tailwindcss/browser@4"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+</head>
+<body class="bg-gray-50">
+    <nav class="bg-white shadow-md sticky top-0 z-50">
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+            <div class="flex justify-between h-16">
+                <a href="index.html" class="flex items-center text-2xl font-bold text-blue-600">Rehan Store</a>
+                <button class="md:hidden p-2 text-gray-600" id="menuToggle">
+                    <i class="fas fa-bars"></i>
+                </button>
+                <ul class="hidden md:flex items-center space-x-8">
+                    <li><a href="index.html" class="text-gray-700 hover:text-blue-600 transition-colors">Home</a></li>
+                    <li><a href="register.html" class="text-gray-700 hover:text-blue-600 transition-colors">Register</a></li>
+                    <li><a href="login.html" class="text-gray-700 hover:text-blue-600 transition-colors">Login</a></li>
+                    <li><a href="contact.html" class="text-gray-700 hover:text-blue-600 transition-colors">Contact</a></li>
+                    <li><a href="disclaimer.html" class="text-gray-700 hover:text-blue-600 transition-colors">Disclaimer</a></li>
+                </ul>
+            </div>
+            <!-- Mobile menu -->
+            <div class="hidden md:hidden" id="mobileMenu">
+                <div class="px-2 pt-2 pb-3 space-y-1">
+                    <a href="index.html" class="block px-3 py-2 text-gray-700 hover:text-blue-600 transition-colors">Home</a>
+                    <a href="register.html" class="block px-3 py-2 text-gray-700 hover:text-blue-600 transition-colors">Register</a>
+                    <a href="login.html" class="block px-3 py-2 text-gray-700 hover:text-blue-600 transition-colors">Login</a>
+                    <a href="contact.html" class="block px-3 py-2 text-gray-700 hover:text-blue-600 transition-colors">Contact</a>
+                    <a href="disclaimer.html" class="block px-3 py-2 text-gray-700 hover:text-blue-600 transition-colors">Disclaimer</a>
+                </div>
+            </div>
+        </div>
+    </nav>
+    
+    <section class="bg-gradient-to-r from-blue-600 to-blue-800 text-white py-16">
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 text-center">
+            <h1 class="text-4xl font-bold mb-4">Welcome to Multi Vendor Marketplace</h1>
+            <p class="text-xl mb-8 max-w-2xl mx-auto">Discover amazing products from trusted vendors worldwide. Shop with confidence on our secure platform.</p>
+            <a href="register.html" class="bg-white text-blue-600 px-8 py-3 rounded-full font-bold hover:transform hover:-translate-y-1 transition-transform duration-200">Become a Vendor</a>
+        </div>
+    </section>
+
+    <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-12">
+        <h2 class="text-3xl font-bold text-center mb-12">Popular Categories</h2>
+        <div class="grid md:grid-cols-3 gap-8">
+            <div class="bg-white rounded-lg shadow-md overflow-hidden transition-transform hover:-translate-y-2 duration-300">
+                <img src="https://images.unsplash.com/photo-1498049794561-7780e7231661?ixlib=rb-1.2.1&auto=format&fit=crop&w=500&q=60" alt="Electronics" class="w-full h-48 object-cover">
+                <div class="p-6">
+                    <h3 class="text-xl font-semibold mb-2">Electronics</h3>
+                    <p class="text-gray-600">Latest gadgets and electronic devices</p>
+                </div>
+            </div>
+            <div class="bg-white rounded-lg shadow-md overflow-hidden transition-transform hover:-translate-y-2 duration-300">
+                <img src="https://images.unsplash.com/photo-1445205170230-053b83016050?ixlib=rb-1.2.1&auto=format&fit=crop&w=500&q=60" alt="Fashion" class="w-full h-48 object-cover">
+                <div class="p-6">
+                    <h3 class="text-xl font-semibold mb-2">Fashion</h3>
+                    <p class="text-gray-600">Trending clothing and accessories</p>
+                </div>
+            </div>
+            <div class="bg-white rounded-lg shadow-md overflow-hidden transition-transform hover:-translate-y-2 duration-300">
+                <img src="https://images.unsplash.com/photo-1513694203232-719a280e022f?ixlib=rb-1.2.1&auto=format&fit=crop&w=500&q=60" alt="Home & Living" class="w-full h-48 object-cover">
+                <div class="p-6">
+                    <h3 class="text-xl font-semibold mb-2">Home & Living</h3>
+                    <p class="text-gray-600">Beautiful home decor and furniture</p>
+                </div>
+            </div>
+        </div>
+
+        <h2 class="text-3xl font-bold text-center my-12">Featured Vendors</h2>
+        <div class="grid md:grid-cols-3 gap-8">
+            <div class="bg-white p-8 rounded-lg shadow-md text-center transition-transform hover:-translate-y-2 duration-300">
+                <div class="w-20 h-20 bg-gray-100 rounded-full flex items-center justify-center mx-auto mb-4">
+                    <i class="fas fa-laptop text-3xl text-blue-600"></i>
+                </div>
+                <h3 class="text-xl font-semibold mb-2">TechHub</h3>
+                <p class="text-gray-600 mb-4">Premium Electronics & Gadgets</p>
+                <div class="flex justify-center space-x-4 text-sm text-gray-600">
+                    <span><i class="fas fa-star text-yellow-400"></i> 4.8/5</span>
+                    <span><i class="fas fa-box text-blue-600"></i> 1000+ Products</span>
+                </div>
+            </div>
+            <div class="bg-white p-8 rounded-lg shadow-md text-center transition-transform hover:-translate-y-2 duration-300">
+                <div class="w-20 h-20 bg-gray-100 rounded-full flex items-center justify-center mx-auto mb-4">
+                    <i class="fas fa-tshirt text-3xl text-blue-600"></i>
+                </div>
+                <h3 class="text-xl font-semibold mb-2">Fashion Forward</h3>
+                <p class="text-gray-600 mb-4">Trendy Fashion & Accessories</p>
+                <div class="flex justify-center space-x-4 text-sm text-gray-600">
+                    <span><i class="fas fa-star text-yellow-400"></i> 4.9/5</span>
+                    <span><i class="fas fa-box text-blue-600"></i> 2000+ Products</span>
+                </div>
+            </div>
+            <div class="bg-white p-8 rounded-lg shadow-md text-center transition-transform hover:-translate-y-2 duration-300">
+                <div class="w-20 h-20 bg-gray-100 rounded-full flex items-center justify-center mx-auto mb-4">
+                    <i class="fas fa-home text-3xl text-blue-600"></i>
+                </div>
+                <h3 class="text-xl font-semibold mb-2">HomeStyle</h3>
+                <p class="text-gray-600 mb-4">Modern Home & Living</p>
+                <div class="flex justify-center space-x-4 text-sm text-gray-600">
+                    <span><i class="fas fa-star text-yellow-400"></i> 4.7/5</span>
+                    <span><i class="fas fa-box text-blue-600"></i> 1500+ Products</span>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <script>
+        document.getElementById('menuToggle').addEventListener('click', function() {
+            document.getElementById('mobileMenu').classList.toggle('hidden');
+        });
+    </script>
+</body>
+</html>

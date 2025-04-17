@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Multi Vendor Marketplace - Your One-Stop Shopping Destination</title>
+    <link rel="stylesheet" href="/style/style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+</head>
+<body>
+    <nav class="navbar">
+        <div class="navbar-container">
+            <a href="index.html" class="brand">Rehan Store</a>
+            <button class="menu-toggle">
+                <i class="fas fa-bars"></i>
+            </button>
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="register.html">Register</a></li>
+                <li><a href="login.html">Login</a></li>
+                <li><a href="contact.html">Contact</a></li>
+                <li><a href="disclaimer.html">Disclaimer</a></li>
+            </ul>
+        </div>
+    </nav>
+    
+    <section class="hero">
+        <div class="container">
+            <h1>Welcome to Multi Vendor Marketplace</h1>
+            <p>Discover amazing products from trusted vendors worldwide. Shop with confidence on our secure platform.</p>
+            <a href="register.html" class="cta-button">Become a Vendor</a>
+        </div>
+    </section>
+
+    <div class="container">
+        <h2 class="section-title">Popular Categories</h2>
+        <div class="categories">
+            <div class="category-card">
+                <img src="https://images.unsplash.com/photo-1498049794561-7780e7231661?ixlib=rb-1.2.1&auto=format&fit=crop&w=500&q=60" alt="Electronics" class="category-image">
+                <div class="category-content">
+                    <h3>Electronics</h3>
+                    <p>Latest gadgets and electronic devices</p>
+                </div>
+            </div>
+            <div class="category-card">
+                <img src="https://images.unsplash.com/photo-1445205170230-053b83016050?ixlib=rb-1.2.1&auto=format&fit=crop&w=500&q=60" alt="Fashion" class="category-image">
+                <div class="category-content">
+                    <h3>Fashion</h3>
+                    <p>Trending clothing and accessories</p>
+                </div>
+            </div>
+            <div class="category-card">
+                <img src="https://images.unsplash.com/photo-1513694203232-719a280e022f?ixlib=rb-1.2.1&auto=format&fit=crop&w=500&q=60" alt="Home & Living" class="category-image">
+                <div class="category-content">
+                    <h3>Home & Living</h3>
+                    <p>Beautiful home decor and furniture</p>
+                </div>
+            </div>
+        </div>
+
+        <h2 class="section-title">Featured Vendors</h2>
+        <div class="featured-vendors">
+            <div class="vendor-card">
+                <div class="vendor-logo">
+                    <i class="fas fa-laptop fa-2x"></i>
+                </div>
+                <h3>TechHub</h3>
+                <p>Premium Electronics & Gadgets</p>
+                <div class="vendor-stats">
+                    <span><i class="fas fa-star"></i> 4.8/5</span>
+                    <span><i class="fas fa-box"></i> 1000+ Products</span>
+                </div>
+            </div>
+            <div class="vendor-card">
+                <div class="vendor-logo">
+                    <i class="fas fa-tshirt fa-2x"></i>
+                </div>
+                <h3>Fashion Forward</h3>
+                <p>Trendy Fashion & Accessories</p>
+                <div class="vendor-stats">
+                    <span><i class="fas fa-star"></i> 4.9/5</span>
+                    <span><i class="fas fa-box"></i> 2000+ Products</span>
+                </div>
+            </div>
+            <div class="vendor-card">
+                <div class="vendor-logo">
+                    <i class="fas fa-home fa-2x"></i>
+                </div>
+                <h3>HomeStyle</h3>
+                <p>Modern Home & Living</p>
+                <div class="vendor-stats">
+                    <span><i class="fas fa-star"></i> 4.7/5</span>
+                    <span><i class="fas fa-box"></i> 1500+ Products</span>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <script>
+        document.querySelector('.menu-toggle').addEventListener('click', function() {
+            document.querySelector('.navbar ul').classList.toggle('show');
+        });
+    </script>
+</body>
+</html>

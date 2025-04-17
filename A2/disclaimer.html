@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Disclaimer - Multi Vendor System</title>
+    <link rel="stylesheet" href="style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+    <script src="https://cdn.jsdelivr.net/npm/@tailwindcss/browser@4"></script>
+</head>
+<body class="bg-gray-50">
+    <nav class="bg-white shadow-md sticky top-0 z-50">
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+            <div class="flex justify-between h-16">
+                <a href="index.html" class="flex items-center text-2xl font-bold text-blue-600">Rehan Store</a>
+                <button class="md:hidden p-2 text-gray-600" id="menuToggle">
+                    <i class="fas fa-bars"></i>
+                </button>
+                <ul class="hidden md:flex items-center space-x-8">
+                    <li><a href="index.html" class="text-gray-700 hover:text-blue-600 transition-colors">Home</a></li>
+                    <li><a href="register.html" class="text-gray-700 hover:text-blue-600 transition-colors">Register</a></li>
+                    <li><a href="login.html" class="text-gray-700 hover:text-blue-600 transition-colors">Login</a></li>
+                    <li><a href="contact.html" class="text-gray-700 hover:text-blue-600 transition-colors">Contact</a></li>
+                    <li><a href="disclaimer.html" class="text-gray-700 hover:text-blue-600 transition-colors">Disclaimer</a></li>
+                </ul>
+            </div>
+            <!-- Mobile menu -->
+            <div class="hidden md:hidden" id="mobileMenu">
+                <div class="px-2 pt-2 pb-3 space-y-1">
+                    <a href="index.html" class="block px-3 py-2 text-gray-700 hover:text-blue-600 transition-colors">Home</a>
+                    <a href="register.html" class="block px-3 py-2 text-gray-700 hover:text-blue-600 transition-colors">Register</a>
+                    <a href="login.html" class="block px-3 py-2 text-gray-700 hover:text-blue-600 transition-colors">Login</a>
+                    <a href="contact.html" class="block px-3 py-2 text-gray-700 hover:text-blue-600 transition-colors">Contact</a>
+                    <a href="disclaimer.html" class="block px-3 py-2 text-gray-700 hover:text-blue-600 transition-colors">Disclaimer</a>
+                </div>
+            </div>
+        </div>
+    </nav>
+    
+    <div class="max-w-3xl mx-auto px-4 py-12">
+        <div class="bg-white rounded-lg shadow-md p-8">
+            <h2 class="text-2xl font-bold mb-6">Disclaimer</h2>
+            <p class="text-gray-600 mb-6">This is a demo multi-vendor marketplace platform. The following disclaimers apply:</p>
+            
+            <div class="space-y-6">
+                <div>
+                    <h3 class="text-xl font-semibold mb-2">1. Demo Purpose</h3>
+                    <p class="text-gray-600">This website is created for demonstration purposes only. No real transactions are processed.</p>
+                </div>
+                
+                <div>
+                    <h3 class="text-xl font-semibold mb-2">2. Vendor Information</h3>
+                    <p class="text-gray-600">All vendor information displayed is fictional and for demonstration purposes.</p>
+                </div>
+                
+                <div>
+                    <h3 class="text-xl font-semibold mb-2">3. Liability</h3>
+                    <p class="text-gray-600">We are not responsible for any content posted by vendors in this demo system.</p>
+                </div>
+                
+                <div>
+                    <h3 class="text-xl font-semibold mb-2">4. Data Collection</h3>
+                    <p class="text-gray-600">No actual data is collected or stored through this demo website.</p>
+                </div>
+                
+                <div>
+                    <h3 class="text-xl font-semibold mb-2">5. Links</h3>
+                    <p class="text-gray-600">All links are for navigation demonstration only.</p>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <script>
+        document.getElementById('menuToggle').addEventListener('click', function() {
+            document.getElementById('mobileMenu').classList.toggle('hidden');
+        });
+    </script>
+</body>
+</html>
